@@ -1,0 +1,61 @@
+I will be documenting my entire process from conception to release.
+
+Things I will be highlighting:
+	-Problems I run into, and how I solve them.
+	-Changes from initial conception.
+	-Basically everything
+
+Goal: Build a graphing calculator.
+
+local app, or web app?
+
+Local App:
+	TkInter
+	cross-platform
+
+Web App:
+	Flask
+	Preferable for more convenient testing environment
+	More setup required... ?
+	How to deploy to web
+	PythonAnywhere?
+
+PythonAnywhere looks like it has everything I need.
+How could I host my web app from pythonanywhere, on my domain?
+	Definitely possible, I will need to configure from HostGator
+	Done
+
+Using Flask, I will build a graphing calculator web app similar to Desmos. I am not trying to make a clone,
+rather I am creating my own version of a graphing calculator with some inspiration, such as the infinite scrollable
+cartesian plane.
+
+It's become apparent that I will need to use a JS framework to manipulate the DOM.
+I think I can use WebGL to render and manipulate the environment. Is this the right tool for me?
+
+Resources:
+
+	What is JavaScript?
+		https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+		"DOMContentLoaded" event
+	I
+
+I decided to do a local app because there is no need for me to learn JS. KISS.
+The main goal is doable either way, and I was way to concerned with delivery.
+All I want to do is build a graphing calculator, not a web app. That is a whole other can 'o' worms
+
+How should I go about this?
+
+
+Problems I ran into:
+	1) Delivery. Local app, or web app?
+		I was caught up in how my project should look, when I realized I should only care about core functionality for now.
+		I just need to get started, create a base, and go from there. It's good to think about future scalability, but only to a certain point.
+		It won't matter if you're thinking about the future so much that you forget to start the project.
+
+		Learning entire frameworks for little ROI is not an efficient use of my time. I can learn it, but right now there is no need to.
+
+	2) So far I've managed to display a matplotlib graph with its toolbar, a quit button, and a label. The toolbar for the graph is separate from it's graph.
+	Every other implementation has the toolbar left justified; why is mine centered? I don't like that. How can I center it?
+
+		Got it! I had to add "sticky='w'" to the grid method in the Graph frame class, after creating the widgets. I solved this problem by messing around in
+		key areas of my code.
