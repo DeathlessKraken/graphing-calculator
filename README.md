@@ -22,6 +22,18 @@ Got it! I had to add "sticky='w'" to the grid method in the Graph frame class, a
  
 ## Sources: 
 
+#### Websites
+[MatPlotLib User's Guide](https://matplotlib.org/users/index.html)
+
+[MatPlotLib Source Code](https://github.com/matplotlib/matplotlib)
+
+[TkDocs](https://tkdocs.com/tutorial/index.html)
+
+[Python.org TkInter Documentation](https://docs.python.org/3/library/tkinter.html)
+
+[TkInter wiki](https://wiki.python.org/moin/TkInter)
+
+
 #### Youtube
 [Matplotlib Tutorial 16 - Live graphs](https://www.youtube.com/watch?v=ZmYPzESC5YY)
 
