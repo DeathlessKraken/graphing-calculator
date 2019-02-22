@@ -21,3 +21,8 @@ So far, I am able to display a custom plot from MatPlotLib in a TkInter frame. I
 	Got it! I had to add "sticky='w'" to the grid method in the Graph frame class, after creating the widgets. I solved this problem by messing around in key areas of my code
  
 ## Sources: 
+
+#### Youtube
+[Matplotlib Tutorial 16 - Live graphs](https://www.youtube.com/watch?v=ZmYPzESC5YY)
+[How to Program a GUI Application (with Python Tkinter)](https://www.youtube.com/watch?v=D8-snVfekto)
+
