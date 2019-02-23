@@ -5,7 +5,7 @@ A graphing calculator made with TkInter, numpy, matplotlib, etc.
 ### Unreleased
 So far, I am able to display a custom plot from MatPlotLib in a TkInter frame. I managed to implement the standard toolbar for analyzing the graph in detail. There is also a quit button that functions successfully.
 
-## Next Steps: Live graph from user input
+## Next Steps: Add a checkbox, label, and entry for the user to customize a linear equation.
 
 
 ## Problems I've had:
@@ -21,8 +21,8 @@ Learning entire frameworks for little ROI is not an efficient use of my time. I 
 Every other implementation has the toolbar left justified; why is mine centered? I don't like that. How can I center it?
 
 Got it! I had to add "sticky='w'" to the grid method in the Graph frame class, after creating the widgets. I solved this problem by messing around in key areas of my code
- 
-## Sources: 
+
+## Sources:
 
 #### Websites
 [MatPlotLib User's Guide](https://matplotlib.org/users/index.html)
